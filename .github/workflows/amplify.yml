@@ -16,7 +16,7 @@ jobs:
     if: (github.actor != 'dependabot[bot]')
     steps:
       - uses: actions/checkout@v4
-      - name: Run Amplify Security Scan (Lab)
+      - name: Run Amplify Security Scan (Local)
         uses: amplify-security/runner-action@main
         with:
-          amplify-endpoint: https://api.lab.amplify.security
+          amplify-endpoint: https://free-huge-skylark.ngrok-free.app
